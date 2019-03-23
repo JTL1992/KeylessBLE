@@ -9,7 +9,7 @@
 - Logging
 
 ## Arquitectura
-![](https://github.com/JTL1992/KeylessBLE/docs/arquitectura.png)
+![](docs/arquitectura.png)
 
 ### Responsabilidades
 - `BLEState` clases de variables constantes para los estados
@@ -49,7 +49,7 @@
 	- KeylesssBluetooth es una class abstacta que implementa la interfaz, realiza los procesos como buscar, conectar y desconectar el cliente puede crear una clase que se hereda a ella para realizar protocolos propios, se trada de la comunicación con el remote y la logica de negocio.
 
 ## BLE Conexión Flujo
-![](https://github.com/JTL1992/KeylessBLE/docs/BLEconectar.png)
+![](docs/BLEconectar.png)
 
 ## Uso
 1. Crear una clase de protocolo de bluetooth. 
